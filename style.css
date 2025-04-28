@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --primary-color-text: #171717;
+  --color-text-white: #ffffff;
+
+  --bg-color-white: #ffffff;
+  --bg-color-blue: #0a22f4;
+
+  --heading-fs: 28px;
+  --regular-fs: 16px;
+}
