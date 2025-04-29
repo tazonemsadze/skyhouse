@@ -8,37 +8,51 @@
   <link rel="stylesheet" href="style.css" />
   <body>
     <header>
-      <a href="#">
-        <img src="images/logo-main.png" alt="" />
-      </a>
+      <div class="header__content">
+        <a href="#" class="nav__logo">
+          <img src="images/logo-main.png" alt="" />
+        </a>
 
-      <nav>
-        <ul>
-          <li><a href="#">მთავარი</a></li>
-          <li><a href="#">ჩვენს შესახებ</a></li>
-          <li><a href="#">სერვისები</a></li>
-          <li><a href="#">პროექტები</a></li>
-          <li><a href="#">პარტნიორები</a></li>
-          <li><a href="#">კონტაქტი</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul class="nav__list--items">
+            <li class="nav__list--item"><a href="#">მთავარი</a></li>
+            <li class="nav__list--item"><a href="#">ჩვენს შესახებ</a></li>
+            <li class="nav__list--item"><a href="#">სერვისები</a></li>
+            <li class="nav__list--item"><a href="#">პროექტები</a></li>
+            <li class="nav__list--item"><a href="#">პარტნიორები</a></li>
+            <li class="nav__list--item"><a href="#">კონტაქტი</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
-        <img src="images/landing-main-img.png" alt="" />
+      <section class="hero__img--container">
+        <img class="hero__img" src="images/landing-main-img.png" alt="" />
       </section>
 
-      <section>
-        <h1>რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?</h1>
+      <section class="container">
+        <h1 class="secion__heading">
+          რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?
+        </h1>
 
         <div class="section__carousel--wrapper">
-          <ul>
-            <li><img src="images/carousel-img-1.png" alt="" /></li>
-            <li><img src="images/carousel-img-2.png" alt="" /></li>
-            <li><img src="images/carousel-img-3.png" alt="" /></li>
-            <li><img src="images/carousel-img-4.png" alt="" /></li>
-            <li><img src="images/carousel-img-5.png" alt="" /></li>
+          <ul class="carousel__items">
+            <li class="carousel__item">
+              <a href="#"><img src="images/carousel-img-1.png" alt="" /></a>
+            </li>
+            <li class="carousel__item">
+              <a href="#"><img src="images/carousel-img-2.png" alt="" /></a>
+            </li>
+            <li class="carousel__item">
+              <a href="#"><img src="images/carousel-img-3.png" alt="" /></a>
+            </li>
+            <li class="carousel__item">
+              <a href="#"><img src="images/carousel-img-4.png" alt="" /></a>
+            </li>
+            <li class="carousel__item">
+              <a href="#"><img src="images/carousel-img-5.png" alt="" /></a>
+            </li>
           </ul>
         </div>
 
@@ -86,6 +100,8 @@
             არასოდეს არ არის გამეორებადი, შემთხვევითი სიტყვების ან ხუმრობების
             შემცველი.
           </p>
+
+          <a href="#" class="section__btn">დამატებითი ინფორმაცია</a>
         </div>
       </section>
     </main>
